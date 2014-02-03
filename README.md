@@ -22,6 +22,7 @@ The 3D Printed hand was printed with files from an open source 3d printable robo
 
 The wireless system is quite basic and is based on an arduino sensing system and an Xbee wireless module. The Arduino on the user sleeve is wired to 5 flex resistors attached to the glove and detects the voltage change across it as a measure of how bent the user's fingers are.
 The arduino then maps these raw values onto a 0-9 scale for easy transmission and then creates a 3 byte information packet for each finger. The 3 bytes are:
+
 1. A capitalised letter showing which finger the packet is destined to (eg. 'T' for thumb) 
 2. The value from 0-9 that is converted from an int to a char so as to take only 1 byte rather than 4
 3. An end of packet delimiter that we chose to be the char '.'
