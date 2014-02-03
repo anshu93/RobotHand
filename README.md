@@ -4,6 +4,7 @@ RobotHand
 This is a project I worked on with Gift Nykayaramba, Minhaz Islam, Negatu Asmamaw and Fabio Berger for the Duke ECE Student Showcase on January 23rd, 2014.
 
 VIDEOS
+
 http://www.youtube.com/watch?v=1EKQisgA6HU
 
 http://www.youtube.com/watch?v=67BF7ubbdGc
